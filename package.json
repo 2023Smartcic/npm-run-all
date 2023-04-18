@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all --parallel start:*",
+    "start:controlCenter": "cd controlCenter && npm start",
     "start:virtualmachine": "cd virtualmachine && npm start",
     "start:monitor": "cd monitor && npm start",
     "start:assestmanager": "cd assestmanager && npm start",
     "start:main": "cd main && npm start",
     "build": "npm-run-all build:* && bash ./bundle.sh",
+    "build:controlCenter": "cd controlCenter && npm run build",
     "build:assestmanager": "cd assestmanager && npm run build",
     "build:virtualmachine": "cd virtualmachine && npm run build",
     "build:monitor": "cd monitor && npm run build",
