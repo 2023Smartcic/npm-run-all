@@ -11,7 +11,7 @@ cp -r ./virtualmachine/dist/ ./dist/subapp/virtualmachine/
 cp -r ./assestmanager/dist/ ./dist/subapp/assestmanager/
 
 # main基座
-cp -r ./container/dist/ ./
+cp -r ./main/dist/ ./
 
 # cd ./dist
 # zip -r mp$(date +%Y%m%d%H%M%S).zip *
