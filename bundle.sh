@@ -9,7 +9,7 @@ mkdir ./dist/subapp
 cp -r ./monitor/dist/ ./dist/subapp/monitor/
 cp -r ./virtualmachine/dist/ ./dist/subapp/virtualmachine/
 cp -r ./assestmanager/dist/ ./dist/subapp/assestmanager/
-cp -r ./dist/controlCenter/dist/ ./dist/subapp/controlCenter/
+cp -r ./controlCenter/dist/ ./dist/subapp/controlCenter/
 
 # main基座
 cp -r ./main/dist/ ./
