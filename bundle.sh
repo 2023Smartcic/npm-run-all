@@ -3,13 +3,12 @@
 rm -rf ./dist
 
 mkdir ./dist
-mkdir ./dist/subapp
 
 # app子应用
-cp -r ./monitor/dist/ ./dist/subapp/monitor/
-cp -r ./virtualmachine/dist/ ./dist/subapp/virtualmachine/
-cp -r ./assestmanager/dist/ ./dist/subapp/assestmanager/
-cp -r ./controlCenter/dist/ ./dist/subapp/controlCenter/
+cp -r ./monitor/dist/ ./dist/monitor/
+cp -r ./virtualmachine/dist/ ./dist/virtualmachine/
+cp -r ./assestmanager/dist/ ./dist/assestmanager/
+cp -r ./controlCenter/dist/ ./dist/controlCenter/
 
 # main基座
 cp -r ./main/dist/ ./
