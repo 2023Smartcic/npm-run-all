@@ -16,7 +16,12 @@
     "build:virtualmachine": "cd virtualmachine && npm run build",
     "build:monitor": "cd monitor && npm run build",
     "build:main": "cd main && npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm-run-all test:* && bash ./bundle.sh",
+    "test:controlCenter": "cd controlCenter && npm run build:testing",
+    "test:assestmanager": "cd assestmanager && npm run build:testing",
+    "test:virtualmachine": "cd virtualmachine && npm run build:testing",
+    "test:monitor": "cd monitor && npm run build:testing",
+    "test:main": "cd main && npm run build:testing"
   },
   "repository": {
     "type": "git",
