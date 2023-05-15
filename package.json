@@ -10,18 +10,21 @@
     "start:monitor": "cd monitor && npm start",
     "start:assestmanager": "cd assestmanager && npm start",
     "start:main": "cd main && npm start",
+    "start:dataplatform": "cd dataplatform && npm start",
     "build": "npm-run-all build:* && bash ./bundle.sh",
     "build:controlCenter": "cd controlCenter && npm run build",
     "build:assestmanager": "cd assestmanager && npm run build",
     "build:virtualmachine": "cd virtualmachine && npm run build",
     "build:monitor": "cd monitor && npm run build",
     "build:main": "cd main && npm run build",
+    "build:dataplatform": "cd dataplatform && npm run build",
     "test": "npm-run-all test:* && bash ./bundle.sh",
     "test:controlCenter": "cd controlCenter && npm run build:testing",
     "test:assestmanager": "cd assestmanager && npm run build:testing",
     "test:virtualmachine": "cd virtualmachine && npm run build:testing",
     "test:monitor": "cd monitor && npm run build:testing",
-    "test:main": "cd main && npm run build:testing"
+    "test:main": "cd main && npm run build:testing",
+    "test:dataplatform": "cd dataplatform && npm run build:testing"
   },
   "repository": {
     "type": "git",
