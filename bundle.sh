@@ -9,6 +9,7 @@ cp -r ./monitor/dist/ ./dist/monitor/
 cp -r ./virtualmachine/dist/ ./dist/virtualmachine/
 cp -r ./assestmanager/dist/ ./dist/assestmanager/
 cp -r ./controlCenter/dist/ ./dist/controlCenter/
+cp -r ./dataplatform/dist ./dist/dataplatform/
 
 # main基座
 cp -r ./main/dist/ ./
